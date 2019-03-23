@@ -1,0 +1,39 @@
+#sidenav {
+  background-color: rgba(70, 33, 173, 0.897);
+  height: 50%;
+  width: 60%;
+  position: absolute;
+  z-index: 100;
+  left: -100%;
+  -webkit-transition: all 1s ease !important;
+  transition: all 1s ease !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sidenav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+#sidenav a:hover {
+  color: orangered;
+}
+
+#sidenav.show {
+  left: 0;
+}
+/*# sourceMappingURL=sidenav.css.map */

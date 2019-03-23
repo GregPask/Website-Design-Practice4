@@ -1,0 +1,47 @@
+#work {
+  height: 700px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#work h1 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#work button {
+  width: 200px;
+  background-color: #b94e60;
+  border: 0;
+  border-radius: 1rem;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 992px) {
+  #work h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #work h1 {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=work.css.map */

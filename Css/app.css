@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body {
+  height: 100%;
+  background-image: url("https://colorlib.com/etc/dinomuz/img/body-bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 3rem 0 5rem 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: rgba(34, 34, 34, 0.842) !important;
+  text-shadow: 1px 1px 0.4px rgba(51, 51, 51, 0.376);
+  line-height: 1.3 !important;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif !important;
+}
+
+h1, h2, h3, p {
+  color: rgba(34, 34, 34, 0.884) !important;
+}
+
+p {
+  line-height: 1.2;
+}
+
+#container {
+  -webkit-box-shadow: 5px 5px 10px 1px rgba(51, 51, 51, 0.353);
+          box-shadow: 5px 5px 10px 1px rgba(51, 51, 51, 0.353);
+  max-width: 950px;
+  margin: auto;
+  overflow: hidden;
+}
+/*# sourceMappingURL=app.css.map */

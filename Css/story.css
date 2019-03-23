@@ -1,0 +1,91 @@
+#story {
+  height: 500px;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#story-left {
+  background: -webkit-gradient(linear, left top, right top, from(#ca5165), to(#df6e81));
+  background: linear-gradient(to right, #ca5165, #df6e81);
+}
+
+#story-right {
+  background-image: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#story-box {
+  background-color: #fff;
+  max-width: 700px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  -webkit-box-shadow: 10px 25px 2px 1px rgba(51, 51, 51, 0.808);
+          box-shadow: 10px 25px 2px 1px rgba(51, 51, 51, 0.808);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 2rem;
+  text-align: left;
+}
+
+#story-box h2 {
+  font-size: 1.2rem !important;
+  color: rgba(27, 27, 27, 0.801) !important;
+  font-weight: bold !important;
+}
+
+#story-box p {
+  margin: 1.5rem 0;
+  color: rgba(51, 51, 51, 0.801) !important;
+  font-weight: bold;
+}
+
+#story-box button {
+  background: -webkit-gradient(linear, left top, right top, from(#ca5165), to(#df926e));
+  background: linear-gradient(to right, #ca5165, #df926e);
+  color: #fff;
+  padding: 12px 17px;
+  width: 200px;
+  border: 1px solid #fff;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  border-radius: 2rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#story-box button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: -webkit-gradient(linear, left top, right top, from(#ca5165), to(#ca5165));
+  background: linear-gradient(to right, #ca5165, #ca5165);
+}
+
+@media (max-width: 992px) {
+  #story {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 500px;
+        grid-template-rows: 500px;
+  }
+  #story-box {
+    width: 90%;
+    margin: auto;
+    padding: 1.2rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #story-box {
+    -webkit-box-shadow: 3px 15px 2px 1px rgba(36, 35, 35, 0.801);
+            box-shadow: 3px 15px 2px 1px rgba(36, 35, 35, 0.801);
+  }
+}
+/*# sourceMappingURL=story.css.map */
